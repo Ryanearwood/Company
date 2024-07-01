@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Dark grey background */
+    color: #fff;
+    padding: 20px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    height: 175px;
+    filter: drop-shadow(2px 4px 6px black); /* Adds a shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+    border-radius: 15px;
+}
+.header .logo:hover {
+    transform: scale(1.1); /* Slightly enlarges the logo on hover */
+}
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.hero {
+    background-color: #333; /* Dark grey background */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta {
+    background: linear-gradient(145deg, #ff7f00, #e65c00); /* Gradient for a 3D effect */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+}
+
+.cta:hover {
+    transform: translateY(-5px); /* Moves the button up slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    background: linear-gradient(145deg, #e65c00, #ff7f00); /* Reverse gradient on hover */
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background-color: #fff; /* White background for cards */
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000; /* Black text */
+    text-align: center; /* Centered text */
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for interactions */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.card h2 {
+    color: #ff6600; /* Orange */
+    font-size: 3em;
+    margin: 0;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ff6600; /* Orange */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #e65c00; /* Darker orange */
+}
+
+footer {
+    background-color: #333; /* Dark grey background */
+    color: #fff; /* White text */
+    padding: 20px 50px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.color-name {
+    color: #ff6600; /* Orange text for the name */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between social icons */
+}
+
+.social-icons a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Slightly enlarges the icon on hover */
+}
