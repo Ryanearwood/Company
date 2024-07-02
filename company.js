@@ -9,3 +9,8 @@ const lastModified = new Date(document.lastModified);
 
     // Update the content of the element with the ID "lastModified" with the formatted date
     document.getElementById("lastModified").textContent = formattedDate;
+
+    function activateButton(checkbox) {
+        const submitButton = document.querySelector('button[type="submit"]');
+        submitButton.disabled = !checkbox.checked;
+    }
