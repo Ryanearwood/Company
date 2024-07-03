@@ -41,10 +41,14 @@ body {
 .header .logo:hover {
     transform: scale(1.1); /* Slightly enlarges the logo on hover */
 }
+
 .header h1 {
-    font-size: 2em;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
 }
+
 
 .hero {
     background-color: #333; /* Dark grey background */
