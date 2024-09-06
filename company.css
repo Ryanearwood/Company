@@ -214,3 +214,7 @@ footer {
 .social-icons a img:hover {
     transform: scale(1.2); /* Slightly enlarges the icon on hover */
 }
+
+.terms-content {
+    text-align: center;
+}

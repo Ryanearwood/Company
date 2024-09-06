@@ -7,6 +7,7 @@
     <title>Digital Marketing Agency</title>
     <link rel="stylesheet" href="company.css">
     
+
 </head>
 <body>
     <div class="header">
@@ -39,25 +40,24 @@
     <div class="contact-form">
         <h2>Contact Us</h2>
         <form action="https://formsubmit.co/earwoodmarketing@outlook.com" method="POST">
-          
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
 
-            <label for="first name">First Name</label>
-            <input type="text" id="first name" name="first name">
-
-            <label for="last name">Last Name</label>
-            <input type="text" id="last name" name="last name">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
             
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
             
             <label for="phone">Phone</label>
-            <input type="phone" id="phone" name="phone" required>
+            <input type="tel" id="phone" name="phone" required>
 
             <label for="website">Website</label>
-            <input type="website" id="website" name="website" required>
+            <input type="url" id="website" name="website" required>
+
             <label for="terms">
                 <input type="checkbox" id="terms" name="terms" required>
-                I Agree to Terms & Conditions
+                I Agree to <a href="terms.html" target="_blank">Terms & Conditions</a>
             </label>
             
             <button type="submit">Claim The Free Strategy!</button>
