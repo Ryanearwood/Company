@@ -7,10 +7,17 @@
     <meta name="description" content="Earwood Marketing - Bringing a consistent stream of new customers to your business.">
     <title>Digital Marketing Agency</title>
     <link rel="stylesheet" href="company.css">
+    <!-- Adding favicon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7XXQV50403"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7XXQV50403');
+</script>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
@@ -27,47 +34,47 @@
         <h1>Earwood Marketing</h1>
     </div>
 
-    <div class="hero" data-aos="fade-up">
+    <div class="hero">
         <h1>More Customers, More Jobs, More Revenue</h1>
         <p>Let Earwood Marketing bring a consistent stream of new customers to your business, so you can grow without the stress of handling marketing yourself.</p>
-        <a href="contact.html" class="cta">Get More Jobs Now! With Our Free Strategy</a>
+        <a href="contact.html" class="cta">Get More Leads Now! With Our Free Strategy</a>
     </div>
 
     <h2>How It Works</h2>
     <div class="cards">
-        <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card">
             <h2>1</h2>
             <h3>We Listen</h3>
             <p>Tell us about your business and your goals. We're here to help you succeed.</p>
         </div>
-        <div class="card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card">
             <h2>2</h2>
             <h3>We Create</h3>
             <p>Our team will craft the perfect plan to get your business in front of the right people at the right time.</p>
         </div>
-        <div class="card" data-aos="fade-up" data-aos-delay="300">
+        <div class="card">
             <h2>3</h2>
             <h3>You Grow</h3>
             <p>Watch as new customers discover your business and your revenue soars. We'll handle the rest.</p>
         </div>
     </div>
 
-    <!-- Updated Services Section with Icons -->
-    <div class="services fade-section" id="services">
+    <!-- New Services Section -->
+    <div class="services" id="services">
         <h2>Our Services</h2>
         <p>At Earwood Marketing, we specialize in delivering comprehensive digital marketing solutions tailored to your business needs. Our services include:</p>
         <ul>
-            <li><i class="fas fa-search"></i> <strong>Search Engine Optimization (SEO):</strong> Enhance your online presence and drive organic traffic with our expert SEO strategies.</li>
-            <li><i class="fas fa-bullhorn"></i> <strong>Pay-Per-Click (PPC) Advertising:</strong> Maximize your ROI with targeted PPC campaigns that put your business in front of potential customers.</li>
-            <li><i class="fas fa-thumbs-up"></i> <strong>Social Media Management:</strong> Engage your audience and build a strong social media presence with our creative content and strategic planning.</li>
-            <li><i class="fas fa-pen-alt"></i> <strong>Content Marketing:</strong> Create and distribute valuable content to attract and retain customers, driving profitable customer actions.</li>
-            <li><i class="fas fa-envelope"></i> <strong>Email Marketing:</strong> Keep your customers informed and engaged with personalized email campaigns that drive conversions.</li>
-            <li><i class="fas fa-laptop-code"></i> <strong>Web Design and Development:</strong> Build a responsive and user-friendly website that showcases your brand and converts visitors into customers.</li>
-            <li><i class="fas fa-chart-line"></i> <strong>Analytics and Reporting:</strong> Gain insights into your marketing performance with our comprehensive analytics and reporting services.</li>
+            <li><strong>Search Engine Optimization (SEO):</strong> Enhance your online presence and drive organic traffic with our expert SEO strategies.</li>
+            <li><strong>Pay-Per-Click (PPC) Advertising:</strong> Maximize your ROI with targeted PPC campaigns that put your business in front of potential customers.</li>
+            <li><strong>Social Media Management:</strong> Engage your audience and build a strong social media presence with our creative content and strategic planning.</li>
+            <li><strong>Content Marketing:</strong> Create and distribute valuable content to attract and retain customers, driving profitable customer actions.</li>
+            <li><strong>Email Marketing:</strong> Keep your customers informed and engaged with personalized email campaigns that drive conversions.</li>
+            <li><strong>Web Design and Development:</strong> Build a responsive and user-friendly website that showcases your brand and converts visitors into customers.</li>
+            <li><strong>Analytics and Reporting:</strong> Gain insights into your marketing performance with our comprehensive analytics and reporting services.</li>
         </ul>
     </div>
 
-    <div class="contact-form fade-section" id="contact">
+    <div class="contact-form" id="contact">
         <h2>Contact Us</h2>
         <form action="https://formsubmit.co/earwoodmarketing@outlook.com" method="POST">
             <label for="first-name">First Name</label>
@@ -96,9 +103,8 @@
 
     <footer>
         <div class="footer-content">
-            <p>©<span id="currentyear"></span> - <span class="color-name">Ryan Earwood</span>, Virginia</p>
+            <p>©<span id="currentyear"></span> - <span class="color-name">Ryan Earwood</span> Virginia</p>
             <p>Last update: <span id="lastModified"></span></p>
-            <p><a href="terms.html" target="_blank">Terms & Conditions</a></p>
         </div>
         <div class="social-icons">
             <a href="https://www.facebook.com/people/Earwood-Marketing/61561189003704/" target="_blank">
@@ -111,10 +117,6 @@
     <script>
       document.getElementById("currentyear").textContent = new Date().getFullYear();
       document.getElementById("lastModified").textContent = document.lastModified;
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-      AOS.init();
     </script>
 </body>
 </html>

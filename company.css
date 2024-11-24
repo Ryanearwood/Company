@@ -92,7 +92,7 @@ body {
     font-size: 1.2em;
 }
 .cta {
-    background: linear-gradient(145deg, #ff7f00, #e65c00); /* Gradient for a 3D effect */
+    background: linear-gradient(145deg, #ff6600, #e65c00); /* Gradient for a 3D effect */
     color: #fff;
     padding: 15px 30px;
     text-decoration: none;
@@ -106,7 +106,7 @@ body {
 .cta:hover {
     transform: translateY(-5px); /* Moves the button up slightly on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-    background: linear-gradient(145deg, #e65c00, #ff7f00); /* Reverse gradient on hover */
+    background: linear-gradient(145deg, #e65c00, #ff6600); /* Reverse gradient on hover */
 }
 
 /* Section Headers */
@@ -212,7 +212,7 @@ footer {
     margin: 5px 0;
 }
 .color-name {
-    color: fff; /* Teal text for the name */
+    color: #fff; /* White text for the name */
 }
 .social-icons {
     display: flex;
@@ -228,6 +228,7 @@ footer {
     transform: scale(1.2); /* Slightly enlarges the icon on hover */
 }
 
+/* Services Section */
 .services {
     background-color: #fff; /* White background */
     padding: 50px 20px;
