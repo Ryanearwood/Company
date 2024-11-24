@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Light grey background */
+    background-color: #e8f0f2; /* Light blue background */
     color: #333; /* Dark grey text */
 }
 @media (min-width: 768px) {
@@ -22,16 +22,46 @@ body {
     }
 }
 
+/* Navigation Bar */
+.navbar {
+    background-color: #2a9d8f; /* Teal background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+.navbar li {
+    display: inline;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+.navbar a:hover {
+    background-color: #264653; /* Dark teal */
+}
+
+/* Header */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333; /* Dark grey background */
+    background-color: #2a9d8f; /* Teal background */
     color: #fff;
     padding: 20px 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .header .logo {
     height: 175px;
     filter: drop-shadow(2px 4px 6px black); /* Adds a shadow */
@@ -41,31 +71,26 @@ body {
 .header .logo:hover {
     transform: scale(1.1); /* Slightly enlarges the logo on hover */
 }
-
 .header h1 {
-    font-family: Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
     color: white;
 }
 
-
+/* Hero Section */
 .hero {
-    background-color: #333; /* Dark grey background */
+    background-color: #2a9d8f; /* Teal background */
     color: #fff;
     text-align: center;
     padding: 100px 20px;
 }
-
 .hero h1 {
     font-size: 3em;
     margin: 0;
 }
-
 .hero p {
     font-size: 1.2em;
 }
-
 .cta {
     background: linear-gradient(145deg, #ff7f00, #e65c00); /* Gradient for a 3D effect */
     color: #fff;
@@ -78,13 +103,13 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effects */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
 }
-
 .cta:hover {
     transform: translateY(-5px); /* Moves the button up slightly on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
     background: linear-gradient(145deg, #e65c00, #ff7f00); /* Reverse gradient on hover */
 }
 
+/* Section Headers */
 h2 {
     margin-top: 40px;
     font-size: 2em;
@@ -92,13 +117,14 @@ h2 {
     width: 100%;
 }
 
+/* Cards Section */
 .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
     padding: 50px 20px;
     gap: 20px; /* Space between cards */
 }
-
 .card {
     background-color: #fff; /* White background for cards */
     padding: 20px;
@@ -111,28 +137,25 @@ h2 {
     position: relative;
     transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for interactions */
 }
-
 .card:hover {
     transform: translateY(-10px); /* Lift the card on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
-
 .card h2 {
-    color: #ff6600; /* Orange */
+    color: #2a9d8f; /* Teal */
     font-size: 3em;
     margin: 0;
 }
-
 .card h3 {
     font-size: 1.5em;
     margin: 10px 0;
 }
-
 .card p {
     font-size: 1em;
     margin: 10px 0;
 }
 
+/* Contact Form */
 .contact-form {
     background-color: #fff;
     padding: 20px;
@@ -142,17 +165,14 @@ h2 {
     margin: 0 auto;
     margin-top: 50px;
 }
-
 .contact-form h2 {
     text-align: center;
     color: #333;
 }
-
 .contact-form label {
     display: block;
     margin: 10px 0 5px;
 }
-
 .contact-form input, .contact-form textarea {
     width: 100%;
     padding: 10px;
@@ -160,9 +180,8 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 .contact-form button {
-    background-color: #ff6600; /* Orange */
+    background-color: #2a9d8f; /* Teal */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -171,13 +190,13 @@ h2 {
     display: block;
     width: 100%;
 }
-
 .contact-form button:hover {
-    background-color: #e65c00; /* Darker orange */
+    background-color: #264653; /* Darker teal */
 }
 
+/* Footer */
 footer {
-    background-color: #333; /* Dark grey background */
+    background-color: #2a9d8f; /* Teal background */
     color: #fff; /* White text */
     padding: 20px 50px;
     text-align: center;
@@ -186,35 +205,62 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
 .footer-content {
     margin-bottom: 20px;
 }
-
 .footer-content p {
     margin: 5px 0;
 }
-
 .color-name {
-    color: #ff6600; /* Orange text for the name */
+    color: fff; /* Teal text for the name */
 }
-
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 20px; /* Space between social icons */
 }
-
 .social-icons a img {
     width: 50px;
     height: 50px;
     transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
-
 .social-icons a img:hover {
     transform: scale(1.2); /* Slightly enlarges the icon on hover */
 }
 
-.terms-content {
+.services {
+    background-color: #fff; /* White background */
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    width: 80%;
     text-align: center;
+}
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.services p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666; /* Light grey text */
+}
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+.services ul li {
+    font-size: 1em;
+    text-align: left; /* Left align list items */
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+.services ul li::before {
+    content: '✔'; /* Checkmark symbol */
+    color: #ff6600; /* Orange color */
+    position: absolute;
+    left: 0;
+    top: 0;
 }

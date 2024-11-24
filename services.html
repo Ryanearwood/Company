@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ryan Earwood">
+    <meta name="description" content="Earwood Marketing - Bringing a consistent stream of new customers to your business.">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="company.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7XXQV50403"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7XXQV50403');
+</script>
+<body>
+    <div class="header">
+        <img src="images/logo.png" alt="Company Logo" class="logo"> 
+        <h1>Earwood Marketing</h1>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#who-we-are">Who We Are</a>
+            <a href="#our-services">Our Services</a>
+            <a href="#digital-marketing-retainers">Digital Marketing Retainers</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+    <div class="hero">
+        <video autoplay muted loop id="heroVideo">
+            <source src="video/space.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1>Boost <span id="animated-text" class="blue-text">Leads</span></h1>
+          
+            <h2>Earwood Digital Marketing Agency</h2>
+            <p>Where Digital Expertise Meets Marketing Passion</p>
+            <a href="contact.html" class="cta">GET STARTED</a>
+        </div>
+        
+        </div>
+
+        
+        <section class="unique-services-section">
+            <div class="unique-container">
+                <h2>Our Services</h2>
+                <div class="unique-services-grid">
+                    <div class="unique-service-item" onclick="showCard('social-media-management')">
+                        <img src="images/social.png" alt="Social Media Management">
+                        <h3>Social Media Management</h3>
+                        <div class="info-card" id="social-media-management">
+                            
+                            <p>Our Social Media Management service involves creating, scheduling, and analyzing content posted on social media platforms like Facebook, Instagram, Twitter, and LinkedIn. This service helps businesses increase their online presence, engage with their audience, and drive traffic to their website. The results include improved brand awareness, higher customer engagement, and potential sales growth.</p>
+                        </div>
+                    </div>
+                    <div class="unique-service-item" onclick="showCard('website-development')">
+                        <img src="images/pageicon.png" alt="Website Development & Maintenance">
+                        <h3>Website Development & Maintenance</h3>
+                        <div class="info-card" id="website-development">
+                            
+                            <p>Our Website Development & Maintenance service covers the creation of custom websites tailored to your business needs, as well as ongoing updates and technical support. This ensures your website remains functional, secure, and up-to-date. The results include a professional online presence, improved user experience, and increased website traffic.</p>
+                        </div>
+                    </div>
+                    <div class="unique-service-item" onclick="showCard('google-advertising')">
+                        <img src="images/analysis.png" alt="Google Advertising">
+                        <h3>Google Advertising</h3>
+                        <div class="info-card" id="google-advertising">
+                            <p>Our Google Advertising service involves setting up and managing pay-per-click (PPC) campaigns on Google. This includes keyword research, ad creation, and performance tracking. The results are increased visibility on Google search results, targeted traffic to your website, and a higher return on investment (ROI) from your advertising budget.</p>
+                        </div>
+                    </div>
+                    <div class="unique-service-item" onclick="showCard('seo')">
+                        <img src="images/seo.png" alt="Search Engine Optimization (SEO)">
+                        <h3>Search Engine Optimization (SEO)</h3>
+                        <div class="info-card" id="seo">
+                            <p>Our SEO service focuses on optimizing your website to rank higher in search engine results pages (SERPs). This includes on-page SEO, off-page SEO, and technical SEO. The results are increased organic traffic, better search engine rankings, and enhanced online visibility.</p>
+                        </div>
+                    </div>
+                
+                    <div class="unique-service-item" onclick="showCard('newsletter')">
+                        <img src="images/email.png" alt="Newsletter (EDM)">
+                        <h3>Newsletter (EDM)</h3>
+                        <div class="info-card" id="newsletter">
+                            <p>Our Newsletter (EDM) service involves designing and sending email campaigns to your subscribers. This helps keep your audience informed about your latest products, services, and promotions. The results are improved customer retention, higher open and click-through rates, and increased sales.</p>
+                        </div>
+                    </div>
+                    <div class="unique-service-item" onclick="showCard('reputation-management')">
+                        <img src="images/reputation.png" alt="Reputation Management">
+                        <h3>Reputation Management</h3>
+                        <div class="info-card" id="reputation-management">
+                            <p>Our Reputation Management service focuses on monitoring and improving your online reputation. This includes managing reviews, responding to customer feedback, and addressing negative comments. The results are a positive online image, increased customer trust, and improved brand credibility.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="faq-container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('faq1')">
+                        How will Boost Social develop and design my website?
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="faq-answer" id="faq1">
+                        <p>Boost Social will develop and design your website by understanding your business needs, creating a custom design, and ensuring it is user-friendly and optimized for search engines.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('faq2')">
+                        Why is Social Media Management essential for my business?
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="faq-answer" id="faq2">
+                        <p>Social Media Management is essential for engaging with your audience, building brand awareness, and driving traffic to your website.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('faq3')">
+                        What type of Google Ads are essential for my business?
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="faq-answer" id="faq3">
+                        <p>The type of Google Ads essential for your business depends on your goals. Options include search ads, display ads, video ads, and shopping ads.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('faq4')">
+                        Does Boost Social have experience developing websites for my industry?
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="faq-answer" id="faq4">
+                        <p>Yes, Boost Social has experience developing websites for various industries, ensuring that your website meets industry standards and best practices.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleAnswer('faq5')">
+                        Why is Boost Social the best fit for my business?
+                        <span class="arrow">▼</span>
+                    </button>
+                    <div class="faq-answer" id="faq5">
+                        <p>Boost Social is the best fit for your business because of our expertise, personalized approach, and commitment to delivering results that align with your business goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="https://formsubmit.co/earwoodmarketing@outlook.com" method="POST">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="website">Website</label>
+            <input type="url" id="website" name="website" required>
+
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                I Agree to <a href="terms.html" target="_blank">Terms & Conditions</a>
+            </label>
+            
+            <button type="submit">Claim The Free Strategy!</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>©<span id="currentyear"></span> - <span class="color-name">Ryan Earwood</span>, Virginia</p>
+            <p>Last update: <span id="lastModified"></span></p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/people/Earwood-Marketing/61561189003704/" target="_blank">
+                <img src="images/imagefb.png" alt="Facebook" loading="lazy">
+            </a>
+            
+        </div>
+        
+    </footer>
+    
+    <script src="company.js" defer></script>
+</body>
+</html>
