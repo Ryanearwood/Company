@@ -7,8 +7,6 @@
     <meta name="description" content="Earwood Marketing - Bringing a consistent stream of new customers to your business.">
     <title>Digital Marketing Agency</title>
     <link rel="stylesheet" href="company.css">
-   
-   
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XXQV50403"></script>
@@ -21,24 +19,76 @@
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
+        <div class="logo">
+            
+        </div>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </nav>
 
     <div class="header" id="home">
-        <img src="images/Companylogo.png" alt="Company Logo" class="logo"> 
+        <img src="images/Companylogo.png" alt="Company Logo" class="logo">
         <h1>Earwood Marketing</h1>
     </div>
 
     <div class="hero">
-        <h1>More Customers, More Jobs, More Revenue</h1>
-        <p>Let Earwood Marketing bring a consistent stream of new customers to your business, so you can grow without the stress of handling marketing yourself.</p>
-        <a href="contact.html" class="cta">Get More Leads Now! With Our Free Strategy</a>
+        <div class="hero-content">
+            <h1>Boost Your Online Presence</h1>
+            <p>Drive traffic, generate leads, and grow your business with our expert marketing solutions.</p>
+            <a href="contact.html" class="cta">Get Started</a>
+            <div class="hero-testimonials">
+                <p>Our mission is to help businesses thrive in the digital world with innovative marketing strategies and personalized support.</p>
+            </div>
+        </div>
     </div>
+    <div class="animated-banner">
+        <div class="banner-content">
+            <div class="banner-item">
+                <img src="images/seo.png" alt="SEO">
+                <p>Boost Your SEO Rankings</p>
+            </div>
+            <div class="banner-item">
+                <img src="images/reputation.png" alt="PPC">
+                <p>Maximize ROI with PPC</p>
+            </div>
+            <div class="banner-item">
+                <img src="images/social.png" alt="Social Media">
+                <p>Engage on Social Media</p>
+            </div>
+            <div class="banner-item">
+                <img src="images/analysis.png" alt="Content Marketing">
+                <p>Effective Content Marketing</p>
+            </div>
+            <!-- Duplicate items for seamless looping -->
+            <div class="banner-item">
+                <img src="images/seo.png" alt="SEO">
+                <p>Boost Your SEO Rankings</p>
+            </div>
+            <div class="banner-item">
+                <img src="images/reputation.png" alt="PPC">
+                <p>Maximize ROI with PPC</p>
+            </div>
+            <div class="banner-item">
+                <img src="social.png" alt="Social Media">
+                <p>Engage on Social Media</p>
+            </div>
+            <div class="banner-item">
+                <img src="images/analysis.png" alt="Content Marketing">
+                <p>Effective Content Marketing</p>
+            </div>
+        </div>
+    </div>
+    
+    
 
     <h2>How It Works</h2>
     <div class="cards">
@@ -61,17 +111,24 @@
 
     <!-- New Services Section -->
     <div class="services" id="services">
-        <h2>Our Services</h2>
-        <p>At Earwood Marketing, we specialize in delivering comprehensive digital marketing solutions tailored to your business needs. Our services include:</p>
-        <ul>
-            <li><strong>Search Engine Optimization (SEO):</strong> Enhance your online presence and drive organic traffic with our expert SEO strategies.</li>
-            <li><strong>Pay-Per-Click (PPC) Advertising:</strong> Maximize your ROI with targeted PPC campaigns that put your business in front of potential customers.</li>
-            <li><strong>Social Media Management:</strong> Engage your audience and build a strong social media presence with our creative content and strategic planning.</li>
-            <li><strong>Content Marketing:</strong> Create and distribute valuable content to attract and retain customers, driving profitable customer actions.</li>
-            <li><strong>Email Marketing:</strong> Keep your customers informed and engaged with personalized email campaigns that drive conversions.</li>
-            <li><strong>Web Design and Development:</strong> Build a responsive and user-friendly website that showcases your brand and converts visitors into customers.</li>
-            <li><strong>Analytics and Reporting:</strong> Gain insights into your marketing performance with our comprehensive analytics and reporting services.</li>
-        </ul>
+        <div class="services-container">
+            <div class="services-image">
+                <img src="images/companypic1.jpg" alt="Our Services Image">
+            </div>
+            <div class="services-content">
+                <h2>Our Services</h2>
+                <p>At Earwood Marketing, we specialize in delivering comprehensive digital marketing solutions tailored to your business needs. Our services include:</p>
+                <ul>
+                    <li><strong>Search Engine Optimization (SEO):</strong> Enhance your online presence and drive organic traffic with our expert SEO strategies.</li>
+                    <li><strong>Pay-Per-Click (PPC) Advertising:</strong> Maximize your ROI with targeted PPC campaigns that put your business in front of potential customers.</li>
+                    <li><strong>Social Media Management:</strong> Engage your audience and build a strong social media presence with our creative content and strategic planning.</li>
+                    <li><strong>Content Marketing:</strong> Create and distribute valuable content to attract and retain customers, driving profitable customer actions.</li>
+                    <li><strong>Email Marketing:</strong> Keep your customers informed and engaged with personalized email campaigns that drive conversions.</li>
+                    <li><strong>Web Design and Development:</strong> Build a responsive and user-friendly website that showcases your brand and converts visitors into customers.</li>
+                    <li><strong>Analytics and Reporting:</strong> Gain insights into your marketing performance with our comprehensive analytics and reporting services.</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <div class="contact-form" id="contact">
@@ -82,41 +139,62 @@
 
             <label for="last-name">Last Name</label>
             <input type="text" id="last-name" name="last-name" required>
-            
+
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-            
+
             <label for="phone">Phone</label>
             <input type="tel" id="phone" name="phone" required>
 
             <label for="website">Website</label>
             <input type="url" id="website" name="website" required>
 
-            <label for="terms">
+            <div class="terms">
                 <input type="checkbox" id="terms" name="terms" required>
-                I Agree to <a href="terms.html" target="_blank">Terms & Conditions</a>
-            </label>
-            
+                <span>I Agree to <a href="terms.html" target="_blank">Terms & Conditions</a></span>
+            </div>
+
             <button type="submit">Claim The Free Strategy!</button>
         </form>
     </div>
 
     <footer>
         <div class="footer-content">
-            <p>©<span id="currentyear"></span> - <span class="color-name">Ryan Earwood</span>, Virginia</p>
-            <p>Last update: <span id="lastModified"></span></p>
+            <div class="footer-section about">
+                <h2 class="footer-title">Earwood Marketing</h2>
+                <p>Bringing a consistent stream of new customers to your business. Drive traffic, generate leads, and grow your business with our expert marketing solutions.</p>
+            </div>
+            <div class="footer-section links">
+                <h2 class="footer-title">Useful Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="terms.html" target="_blank">Terms & Conditions</a></li>
+                    <li><a href="privacy.html" target="_blank">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2 class="footer-title">Contact Us</h2>
+                <p>Email: <a href="mailto:earwoodmarketing@outlook.com">earwoodmarketing@outlook.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section social">
+                <h2 class="footer-title">Follow Us</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Earwood-Marketing/61561189003704/" target="_blank">
+                        <img src="images/imagefb.png" alt="Facebook" loading="lazy">
+                    </a>
+                    <!-- Add other social media icons similarly -->
+                </div>
+            </div>
         </div>
-        <div class="social-icons">
-            <a href="https://www.facebook.com/people/Earwood-Marketing/61561189003704/" target="_blank">
-                <img src="images/imagefb.png" alt="Facebook" loading="lazy">
-            </a>
-            <!-- Add other social media icons similarly -->
+        <div class="footer-bottom">
+            <p>©<span id="currentyear"></span> - Ryan Earwood, Virginia. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="company.js" defer></script>
-    <script>
-      document.getElementById("currentyear").textContent = new Date().getFullYear();
-      document.getElementById("lastModified").textContent = document.lastModified;
-    </script>
 </body>
 </html>
