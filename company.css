@@ -319,7 +319,7 @@ h2 {
     text-decoration: underline;
 }
 
-
+@media (max-width: 768px) { .contact-form { padding: 15px; width: 90%; } .contact-form input, .contact-form button { font-size: 14px; } .contact-form .terms { flex-direction: column; /* Stack items vertically on small screens */ align-items: flex-start; /* Align items to the start */ } .contact-form .terms span { margin-top: 5px; /* Add space above the text */ } .contact-form button { font-size: 14px; padding: 10px; } }
 /* Footer */
 /* Footer Styles */
 footer {
