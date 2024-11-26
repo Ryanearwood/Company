@@ -579,7 +579,7 @@ footer {
     font-size: 1em;
     color: #fff;
 }
-
+@media (max-width: 768px) { .animated-banner { padding: 5px 0; } .banner-item { flex: 0 0 50%; /* Two items per row on small screens */ padding: 5px; } .banner-item img { max-width: 50px; } .banner-content { animation: scroll-mobile 20s linear infinite; /* Adjust animation speed for mobile */ } @keyframes scroll-mobile { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } } }
 @keyframes scroll {
     0% {
         transform: translateX(0);
